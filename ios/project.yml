@@ -1,0 +1,31 @@
+name: KidLocator
+options:
+  bundleIdPrefix: com.familylocator
+  deploymentTarget:
+    iOS: "13.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+targets:
+  KidLocator:
+    type: application
+    platform: iOS
+    deploymentTarget: "13.0"
+    sources:
+      - path: KidLocator
+        excludes:
+          - Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.familylocator.kid
+        INFOPLIST_FILE: KidLocator/Info.plist
+        TARGETED_DEVICE_FAMILY: "1"
+        CODE_SIGN_STYLE: Automatic
+schemes:
+  KidLocator:
+    build:
+      targets:
+        KidLocator: all
+    archive:
+      config: Release

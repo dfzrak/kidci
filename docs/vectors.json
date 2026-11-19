@@ -1,0 +1,11 @@
+{
+  "code": "e2etest1234",
+  "pbkdf2Iterations": 10000,
+  "salt": "family-locator-v3.1",
+  "keyHex": "9cefc84e8902975509aeb987bbe8347a162adf8c1f24eeb54607cb9fe7f2eb8b",
+  "nonceHex": "000102030405060708090a0b",
+  "plaintext": [123, 34, 108, 97, 116, 34, 58, 51, 49, 46, 50, 52, 52, 52, 44, 34, 108, 110, 103, 34, 58, 49, 50, 49, 46, 52, 56, 56, 56, 44, 34, 97, 99, 99, 34, 58, 54, 44, 34, 116, 115, 34, 58, 49, 50, 51, 52, 53, 54, 55, 56, 57, 48, 49, 50, 51, 125],
+  "cipherTagHex": "8781384aa7791e829b214e8bf231fbba17485f5ce751cc89635269ac9d35e4622082e2d8baffc3e681b4c155bf2bfe97d0f88519ab34dcfc0df9a159e601de34726749d0ed33cbbb48",
+  "livePayload": "4g5xE+U6AKwVgQvXLvoimtQO6KG3GrY3hVjMUrHLRMLdBwvvMuNS6I1dACBfUGQ9Hl4ajH0ZnkZ/BqKx50dRWl+ck0HudJmpPfLqyP5mSe1Qz5jrUQ==",
+  "topicFingerprint": "d5176aa4ba328136"
+}
